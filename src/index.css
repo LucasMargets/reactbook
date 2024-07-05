@@ -1,0 +1,96 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: grid;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: aliceblue;
+  padding: 15px;
+  margin: 0px;
+}
+.AppTw{
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+  height: 100%;
+  width: 300px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.tw-aquienseguir{
+  background-color: #242424;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 5px;
+}
+.tw-header{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.tw-img {
+  width:45px;
+  border-radius: 1000px;
+  height: 40px;
+  margin-left: 5px;
+}
+.tw-names {
+  color: rgba(255, 255, 255, 0.87);
+  display: flex;
+  flex-direction: column;
+}
+.tw-name{
+  font-size: 15px;
+}
+.tw-media{
+  font-size: 12px;
+  opacity: .7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tw-botonfollow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 30px;
+  border-radius: 999px;
+  margin-right: 4px;
+  border: 0;
+  cursor: pointer;
+}
+
+.tw-botonfollow.isfollowing {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 6px 30px 6px 30px;
+  border-radius: 999px;
+  background-color: black;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.tw-botonfollow:hover {
+  background-color: #cecece;
+}
+
+.tw-botonfollow.isfollowing:hover {
+  background-color: rgb(252, 181, 181);
+  border: 1px solid red;
+  font-weight: bold;
+}
+
+.tw-botonfollow.isfollowing:hover .tw-botontext {
+  color: red; 
+}
+
+.tw-botontext {
+  color: black;
+  font-weight: bold;
+}
+
+.tw-botontext.isfollowing {
+  color: whitesmoke;
+  font-weight: bold;
+}
